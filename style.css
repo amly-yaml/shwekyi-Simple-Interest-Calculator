@@ -1,4 +1,46 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+  background-color: black;
+  font-family: arial;
+  color: white;
+}
+h1 {
+  color: gray;
+  font-family: verdana;
+}
 
+.maindiv {
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  margin: 40px;
+  padding: 20px;
+  width: 800px;
+}
 
+.input-text {
+  margin: 10px 0 10px 90px;
+}
+
+.input-type {
+  display: inline;
+}
+
+.align-number {
+  margin-left: 90px;
+}
+
+.align-form {
+  margin-left: 55px;
+}
+
+.highlight {
+  background-color: aquamarine;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  margin-top: 30px;
+}
