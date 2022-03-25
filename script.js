@@ -12,7 +12,7 @@ function compute() {
     document.getElementById("principal").focus();
     return;
   } else {
-    interest = (principle * interest_rate * year) / 100;
+    interest = (principle * interest_rate * years) / 100;
     showResult.classList.remove("hidden");
     document.getElementById("deposit").innerHTML = principle + ",";
     document.getElementById("interest-rate").innerText =
@@ -28,6 +28,6 @@ function rangeValue() {
   sliderValue.innerHTML = slider.value + "%";
 
   slider.oninput = function () {
-    sliderValue.innerHTML = this.value;
+    sliderValue.innerHTML = this.value + "%";
   };
 }
